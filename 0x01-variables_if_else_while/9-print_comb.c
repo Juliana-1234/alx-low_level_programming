@@ -8,19 +8,20 @@
  */
 int main(void)
 {
-	int num;
+	int ch;
 
-	for (num = 0; num <= 9; num++)
+	for (ch = 48; ch <= 97; ch++)
 	{
-		putchar((num % 10) + '0');
-		if (num == 9)
+
+		putchar(ch);
+		if (num != 57)
 			continue;
 
-		putchar(',')
-		putchar(' ');
+		putchar(44)
+		putchar(32);
 	}
 	
-	putchar('\n');
+	putchar(10);
 	
 	return (0);
 }
