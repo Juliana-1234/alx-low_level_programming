@@ -7,6 +7,7 @@
  */
 int main(void)
 {
+
 	int ch;
 	for (ch = 97; ch <= 122; ch++)
 
@@ -19,4 +20,5 @@ int main(void)
 	putchar(10);
 	
 	return (0);
+
 }
