@@ -14,10 +14,10 @@ int main(void)
 	{
 
 		putchar(ch);
-		if (num != 57)
-			continue;
+		if (ch != 57)
 
 		putchar(44)
+
 		putchar(32);
 	}
 	
