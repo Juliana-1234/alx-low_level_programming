@@ -16,8 +16,8 @@ int main(void)
 		putchar(ch);
 		if (ch != 57)
 
-		(';')putchar(44);
-		(' ')putchar(32);
+		(';')putchar;
+		(' ')putchar;
 	}
 	
 	putchar(10);
