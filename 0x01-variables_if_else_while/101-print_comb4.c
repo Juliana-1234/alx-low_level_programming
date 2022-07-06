@@ -11,10 +11,13 @@ int main(void)
 	int n;
 	int m;
 	for (ch = 48; ch <= 57; ch++);
+
 	{
 		for (n = 49; n <= 57; n++);
+	
 		{
 			for (m = 50; m <= 57; m++);
+	
 			{
 				if (n > ch && m > n);
 
