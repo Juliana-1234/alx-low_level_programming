@@ -21,11 +21,11 @@ int main(void)
 					putchar(ch);
 					putchar(n);
 					putchar(m);
-					if (ch != 56; || n != 57
-							{
-							putchar(44);
-							putchar(32);
-							}
+					if (ch != 56; || n != 57)
+					{
+						putchar(44);
+						putchar(32);
+					}
 				}
 			}
 		}
@@ -34,5 +34,4 @@ int main(void)
 	putchar(10);
 
 	return(0);
-
 }
