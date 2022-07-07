@@ -1,34 +1,20 @@
-0-main.c code
-
-
 #include "main.h"
 
 /**
  * main - tests function that prints if integer is positive or negative
- * Return: 0
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int i;
+	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int count, sz;
 
-	i = 0;
-	positive_or_negative(i);
-	
+	sz = sizeof(str) / sizeof(int);
+	for (count = 0; count < sz; count++)
+	{
+		_putchar(str[count]);
+	}
+	_putchar('\n');
 	return (0);
 }
-
-
-
-main.h code
-
-
-#ifndef MAIN_H
-#define MAIN_H
-
-#include <stdio.h>
-void positive_or_negative(int i);
-int largest_number(int a, int b, int c);
-int convert_day(int month, int day);
-void print_remaining_days(int month, int day, int year);
-#endif /* MAIN_H */
