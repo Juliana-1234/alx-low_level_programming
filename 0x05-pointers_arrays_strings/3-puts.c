@@ -7,7 +7,6 @@
  */
 
 void _puts(char *str)
-
 {
 	int count = 0;
 
