@@ -5,7 +5,7 @@
  * @str: input string.
  * Return: no return.
  */
-void _puts(char *str);
+void _puts(char *str)
 {
 	int count = 0;
 
@@ -15,8 +15,8 @@ void _puts(char *str);
 		{
 			_putchar('\n');
 			break;
-			{
-				_putchar(str[count]);
-				count++;
-			}
+		}
+		_putchar(str[count]);
+		count++;
+	}
 }
