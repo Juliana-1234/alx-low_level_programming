@@ -2,9 +2,9 @@
 
 /**
  * main - prints all arguments it receives.
- * @argc: The arguement counter
- * @argv: The arguement values
- * Return: 0 success
+ *  @argc: The arguement counter
+ *  @argv: The arguement values
+ *  Return: 0 success
  */
 
 int main(int argc, char **argv)
