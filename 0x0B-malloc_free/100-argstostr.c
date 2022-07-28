@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+
 /**
   *argstostr - concatenates all the arguments of a program.
   *@ac: argument count.
@@ -7,6 +8,7 @@
   *Return: NULL if ac == 0 or av == null, Pointer to new string
   *NULL on fail.
   */
+
 char *argstostr(int ac, char **av)
 {
 	int i, j, k, size;
