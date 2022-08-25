@@ -292,7 +292,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	r = read(o, header, sizeof(Elf64_Ehdr));
 	if (r == -1)
 	{
-		free(header);
+	 	free(header);
 		close_elf(o);
 		dprintf(STDERR_FILENO, "Error: `%s`: No such file\n", argv[1]);
 		exit(98);
